@@ -1,0 +1,48 @@
+{
+  "name": "backbone-requester",
+  "description": "Make server-based requests in Backbone via request",
+  "version": "1.0.0",
+  "homepage": "https://github.com/underdogio/backbone-requester",
+  "author": {
+    "name": "Todd Wolfson",
+    "email": "todd@twolfson.com",
+    "url": "http://twolfson.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/underdogio/backbone-requester.git"
+  },
+  "bugs": {
+    "url": "https://github.com/underdogio/backbone-requester/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/underdogio/backbone-requester/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/backbone-requester",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "precheck": "twolfson-style precheck lib/ test/",
+    "lint": "twolfson-style lint lib/ test/",
+    "pretest": "twolfson-style install",
+    "test": "npm run precheck && mocha --reporter dot && npm run lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jscs": "~1.7.3",
+    "jshint": "~2.5.10",
+    "mocha": "~1.11.0",
+    "twolfson-style": "~1.6.0"
+  },
+  "keywords": [
+    "backbone",
+    "request",
+    "server",
+    "plugin",
+    "mixin"
+  ]
+}
