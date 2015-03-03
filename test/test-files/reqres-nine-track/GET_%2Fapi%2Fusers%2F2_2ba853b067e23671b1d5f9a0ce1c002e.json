@@ -1,0 +1,35 @@
+{
+  "request": {
+    "httpVersion": "1.1",
+    "headers": {
+      "accept": "application/json",
+      "host": "localhost:9001",
+      "connection": "keep-alive"
+    },
+    "trailers": {},
+    "method": "GET",
+    "url": "/api/users/2",
+    "bodyEncoding": "utf8",
+    "body": ""
+  },
+  "response": {
+    "httpVersion": "1.1",
+    "headers": {
+      "server": "nginx/1.6.2",
+      "date": "Tue, 03 Mar 2015 19:27:15 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "138",
+      "connection": "keep-alive",
+      "x-powered-by": "Express",
+      "access-control-allow-origin": "*",
+      "etag": "W/\"8a-47138110\""
+    },
+    "trailers": {},
+    "statusCode": 200,
+    "bodyEncoding": "utf8",
+    "body": "{\"data\":{\"id\":2,\"first_name\":\"lucille\",\"last_name\":\"bluth\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\"}}"
+  },
+  "pastRequestKeys": [
+    "GET_%2Fapi%2Fusers%2F2_2ba853b067e23671b1d5f9a0ce1c002e"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "request": {
+    "httpVersion": "1.1",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "localhost:9001",
+      "content-length": "23",
+      "connection": "keep-alive"
+    },
+    "trailers": {},
+    "method": "POST",
+    "url": "/api/users",
+    "bodyEncoding": "utf8",
+    "body": "{\"name\":\"Bark Ruffalo\"}"
+  },
+  "response": {
+    "httpVersion": "1.1",
+    "headers": {
+      "server": "nginx/1.6.2",
+      "date": "Tue, 03 Mar 2015 19:27:15 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "73",
+      "connection": "keep-alive",
+      "x-powered-by": "Express",
+      "access-control-allow-origin": "*"
+    },
+    "trailers": {},
+    "statusCode": 201,
+    "bodyEncoding": "utf8",
+    "body": "{\"name\":\"Bark Ruffalo\",\"id\":\"633\",\"createdAt\":\"2015-03-03T19:27:15.120Z\"}"
+  },
+  "pastRequestKeys": [
+    "POST_%2Fapi%2Fusers_03461ee53bcff59cef5d9bc227b0479e"
+  ]
+}

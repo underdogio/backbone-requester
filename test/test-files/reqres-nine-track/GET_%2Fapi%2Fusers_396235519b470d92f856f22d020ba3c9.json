@@ -1,0 +1,35 @@
+{
+  "request": {
+    "httpVersion": "1.1",
+    "headers": {
+      "accept": "application/json",
+      "host": "localhost:9001",
+      "connection": "keep-alive"
+    },
+    "trailers": {},
+    "method": "GET",
+    "url": "/api/users",
+    "bodyEncoding": "utf8",
+    "body": ""
+  },
+  "response": {
+    "httpVersion": "1.1",
+    "headers": {
+      "server": "nginx/1.6.2",
+      "date": "Tue, 03 Mar 2015 19:27:15 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "446",
+      "connection": "keep-alive",
+      "x-powered-by": "Express",
+      "access-control-allow-origin": "*",
+      "etag": "W/\"1be-539742e1\""
+    },
+    "trailers": {},
+    "statusCode": 200,
+    "bodyEncoding": "utf8",
+    "body": "{\"page\":1,\"per_page\":3,\"total\":12,\"total_pages\":4,\"data\":[{\"id\":1,\"first_name\":\"george\",\"last_name\":\"bluth\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg\"},{\"id\":2,\"first_name\":\"lucille\",\"last_name\":\"bluth\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\"},{\"id\":3,\"first_name\":\"oscar\",\"last_name\":\"bluth\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg\"}]}"
+  },
+  "pastRequestKeys": [
+    "GET_%2Fapi%2Fusers_396235519b470d92f856f22d020ba3c9"
+  ]
+}

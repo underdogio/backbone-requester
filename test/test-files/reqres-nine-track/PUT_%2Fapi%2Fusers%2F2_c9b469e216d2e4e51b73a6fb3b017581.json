@@ -1,0 +1,37 @@
+{
+  "request": {
+    "httpVersion": "1.1",
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json",
+      "host": "localhost:9001",
+      "content-length": "126",
+      "connection": "keep-alive"
+    },
+    "trailers": {},
+    "method": "PUT",
+    "url": "/api/users/2",
+    "bodyEncoding": "utf8",
+    "body": "{\"id\":2,\"first_name\":\"Bark\",\"last_name\":\"bluth\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\"}"
+  },
+  "response": {
+    "httpVersion": "1.1",
+    "headers": {
+      "server": "nginx/1.6.2",
+      "date": "Tue, 03 Mar 2015 19:27:15 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "165",
+      "connection": "keep-alive",
+      "x-powered-by": "Express",
+      "access-control-allow-origin": "*"
+    },
+    "trailers": {},
+    "statusCode": 200,
+    "bodyEncoding": "utf8",
+    "body": "{\"id\":2,\"first_name\":\"Bark\",\"last_name\":\"bluth\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\",\"updatedAt\":\"2015-03-03T19:27:15.772Z\"}"
+  },
+  "pastRequestKeys": [
+    "GET_%2Fapi%2Fusers%2F2_2ba853b067e23671b1d5f9a0ce1c002e",
+    "PUT_%2Fapi%2Fusers%2F2_c9b469e216d2e4e51b73a6fb3b017581"
+  ]
+}

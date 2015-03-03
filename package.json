@@ -31,11 +31,18 @@
     "pretest": "twolfson-style install",
     "test": "npm run precheck && mocha --reporter dot && npm run lint"
   },
-  "dependencies": {},
+  "dependencies": {
+    "underscore": "~1.8.2"
+  },
   "devDependencies": {
+    "backbone": "~1.1.2",
+    "chai": "~2.1.0",
+    "fixed-server": "~0.4.0",
     "jscs": "~1.7.3",
     "jshint": "~2.5.10",
     "mocha": "~1.11.0",
+    "nine-track": "~2.0.0",
+    "request": "~2.53.0",
     "twolfson-style": "~1.6.0"
   },
   "keywords": [
