@@ -176,3 +176,27 @@ describe('A Backbone model retrieving from a downed server', function () {
     expect(this.err).to.have.property('code', 'ECONNREFUSED');
   });
 });
+
+describe('A Backbone model request with custom headers', function () {
+  FakeReqres.run(['GET 200 /api/users/:id#headers']);
+  testUtils.request(function getItem (requestOptions) {
+    this.user = new UserModel({id: 2});
+    this.user.fetch(_.defaults({
+      headers: {
+        'X-Hello': 'World'
+      }
+    }, requestOptions));
+  });
+  after(function cleanup () {
+    delete this.user;
+  });
+
+  it('has custom headers at the server', function () {
+    expect(this.err).to.equal(null);
+    expect(this.user.attributes).to.have.property('x-hello', 'World');
+  });
+
+  it('has default headers at the server', function () {
+    expect(this.user.attributes).to.have.property('accept', 'application/json');
+  });
+});

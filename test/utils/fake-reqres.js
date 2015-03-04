@@ -10,6 +10,15 @@ var reqresNineTrack = nineTrack({
   fixtureDir: __dirname + '/../test-files/reqres-nine-track/'
 });
 
+// Add a method to test headers
+fakeReqres.addFixture('GET 200 /api/users/:id#headers', {
+  method: 'get',
+  route: '/api/users/:id',
+  response: function (req, res) {
+    res.send(req.headers);
+  }
+});
+
 // Add a method to proxy anything
 fakeReqres.addFixture('ALL * *', {
   method: 'all',
