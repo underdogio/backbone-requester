@@ -1,7 +1,7 @@
 {
   "name": "backbone-requester",
   "description": "Make server-based requests in Backbone via request",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://github.com/underdogio/backbone-requester",
   "author": {
     "name": "Todd Wolfson",
