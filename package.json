@@ -1,5 +1,5 @@
 {
-  "name": "backbone-requester",
+  "name": "@underdogio/backbone-requester",
   "description": "Make server-based requests in Backbone via request",
   "version": "1.2.0",
   "homepage": "https://github.com/underdogio/backbone-requester",
