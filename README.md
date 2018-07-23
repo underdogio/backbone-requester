@@ -10,7 +10,7 @@ This is based off of [backbone-request][] but forked due to [lack of support for
 [update-issue]: https://github.com/Marak/node-backbone-request/issues/4
 
 ## Getting Started
-Install the module with: `npm install backbone-requester`
+Install the module with: `npm install @underdogio/backbone-requester`
 
 ```js
 // Load in our dependencies
